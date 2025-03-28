@@ -12,7 +12,7 @@ function App() {
     if (newPlayer.join("") === sequence.slice(0, newPlayer.length).join("")) {
       setPlayer(newPlayer);
       if (newPlayer.length === sequence.length) {
-        setMessage("🔥 All torches lit! You win! 🎉");
+        setMessage("🔥 All torches lit! You win!!! 🎉");
       }
     } else {
       setPlayer([]);
